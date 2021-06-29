@@ -4,9 +4,43 @@
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
-  padding: 100px 100px;
+  padding: 100px 100px 0px 100px;
   display: flex;
 }
 .hero__text {
+  margin-top: 60px;
   margin-left: 60%;
+}
+.hero__text > h1 {
+  color: #fff;
+  font-size: 56px !important;
+}
+.hero__text > H4 {
+  color: #fff;
+  font-size: 28px;
+}
+.hero__button {
+  background-color: #3cc2b9;
+  padding: 15px 10px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  width: 200px;
+}
+@media screen and (max-width: 960px) {
+  .hero {
+    flex: 0.87;
+    background-image: url("https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_605,q_65,w_1200/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DKB_Ugleredet-drone-3756x1616_1009289043.jpg%26dh%3D344%26dw%3D800%26t%3D4");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    padding: 100px 20px 0px 20px;
+    display: flex;
+  }
+  .hero__text {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
 }

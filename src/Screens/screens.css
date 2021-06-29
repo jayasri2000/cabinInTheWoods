@@ -1,6 +1,8 @@
 .Home {
   display: flex;
   flex-direction: column;
-  height: 636px;
+  height: 100vh !important;
   border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 960px) {
 }
