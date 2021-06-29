@@ -1,0 +1,6 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  height: 636px;
+  border-bottom: 1px solid #000;
+}
