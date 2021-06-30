@@ -1,0 +1,49 @@
+.facilities {
+  padding: 20px 100px;
+}
+.facility__section {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+.facility {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+.facility > p {
+  margin-top: 25px;
+}
+
+.facility:hover {
+  color: #3cc2b9;
+}
+@media screen and (max-width: 960px) {
+  .facilities {
+    padding: 20px 20px;
+  }
+  .facility__section {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+  .facility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+  }
+}

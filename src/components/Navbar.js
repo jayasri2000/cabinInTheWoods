@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import ClearIcon from "@material-ui/icons/Clear";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -34,19 +35,19 @@ function Navbar() {
           </div>
           <div className={click ? "nav-menu active" : "nav-menu"}>
             <div className="nav-item" onClick={closeMobilemenu}>
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </div>
             <div className="nav-item" onClick={closeMobilemenu}>
-              <a href="#about">About</a>
+              <Link to="/about">About</Link>
             </div>
             <div className="nav-item" onClick={closeMobilemenu}>
-              <a href="#projects">Faq</a>
+              <Link to="/faq">FAQs</Link>
             </div>
             <div className="nav-item" onClick={closeMobilemenu}>
-              <a href="#skills">Cabins</a>
+              <Link to="/cabins">Cabins</Link>
             </div>
             <div className="nav-item" onClick={closeMobilemenu}>
-              <a href="#contacts">Bookings</a>
+              <Link to="/bookings">Bookings</Link>
             </div>
             <div className="nav__booknow">BOOK A CABIN</div>
           </div>
