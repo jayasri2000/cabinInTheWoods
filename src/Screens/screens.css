@@ -4,5 +4,18 @@
   height: 100vh !important;
   border-bottom: 1px solid #000;
 }
+
+.faq {
+  padding: 100px;
+}
+.info {
+  margin: 50px;
+}
 @media screen and (max-width: 960px) {
+  .faq {
+    padding: 100px 20px;
+  }
+  .info {
+    margin: 30px 20px;
+  }
 }
