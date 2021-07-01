@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./screens.css";
-import FAQ from "../components/FaqData";
+import FAQ from "../components/shared/FaqData";
 
 import SingleQuestion from "../components/SingleQuestion";
 
