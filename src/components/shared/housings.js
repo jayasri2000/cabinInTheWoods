@@ -5,7 +5,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1566754844421-9bc834baf4a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FiaW4lMjBpbiUyMHRoZSUyMHdvb2RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 2 guests",
-    reiews: "4.5/5 stars",
+    reiews: "4.5/5",
     price: "1500/night ",
   },
   {
@@ -14,7 +14,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1566754844421-9bc834baf4a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FiaW4lMjBpbiUyMHRoZSUyMHdvb2RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 4 guests",
-    reiews: "4.2/5 stars",
+    reiews: "4.2/5",
     price: "2500/night ",
   },
   {
@@ -23,7 +23,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1483737489035-78c01af155f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Tree house",
     stats: "1 beds 1 guests",
-    reiews: "4.6/5 stars",
+    reiews: "4.6/5",
     price: "800/night ",
   },
   {
@@ -32,7 +32,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1568659585069-facb248c4935?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Tree house",
     stats: "1 beds 2 guests",
-    reiews: "3.8/5 stars",
+    reiews: "3.8/5",
     price: "1800/night ",
   },
   {
@@ -41,7 +41,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1512718602040-4654a330a5c9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 2 guests",
-    reiews: "4.2/5 stars",
+    reiews: "4.2/5 ",
     price: "1600/night ",
   },
   {
@@ -50,7 +50,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1475592827823-4e8548bbc506?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 4 guests",
-    reiews: "4.8/5 stars",
+    reiews: "4.8/5",
     price: "1200/night ",
   },
   {
@@ -59,7 +59,7 @@ const cabins = [
       "https://images.unsplash.com/photo-1583177279683-8c46d53b53aa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 2 guests",
-    reiews: "4.1/5 stars",
+    reiews: "4.1/5",
     price: "2000/night ",
   },
 ];
