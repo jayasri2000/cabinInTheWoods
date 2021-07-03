@@ -36,7 +36,7 @@ const Hostings = () => {
                       <div className="cabin__stat">{cabin.stats}</div>
                       <div className="cabin__footer">
                         <p>
-                          {cabin.reiews} <StarIcon />{" "}
+                          {cabin.reiews} <StarIcon style={{ fontSize: 16 }} />{" "}
                         </p>
                         <p>{cabin.price}</p>
                         {/* <button onClick={() => setUid(cabin.key)}>
@@ -51,8 +51,35 @@ const Hostings = () => {
           </div>
         </div>
 
-        <div className="housings__solo" style={{ padding: 100 }}>
-          {cabin.key}hiii
+        <div className="housings__solo">
+          {cabin.key ? (
+            <div className="cab__prev">
+              <img
+                src={cabin.image}
+                alt={cabin.name}
+                className="cab__prevImage"
+              />
+              <div className="cab__prev_dets">
+                <p style={{ paddingBottom: 10, fontSize: 24 }}>{cabin.desc}</p>
+                <p>{cabin.stats}</p>
+                <p>
+                  this two bedroom cabin is nested in the lap of the forest with
+                  a great view and built in diner, it serves a s the perfect
+                  getaway for you
+                </p>
+                <p>{cabin.reiews}</p>
+                <p></p>
+              </div>
+              <div className="cab__prev__foot">
+                <div className="cab__prev__btn">Book Now</div>
+                <div className="cab__prev__btn">Call</div>
+              </div>
+            </div>
+          ) : (
+            <div className="sel__text">
+              Select a cabin to know more about it.
+            </div>
+          )}
         </div>
       </div>
     </div>

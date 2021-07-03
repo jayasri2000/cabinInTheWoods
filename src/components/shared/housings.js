@@ -2,7 +2,7 @@ const cabins = [
   {
     key: 1,
     image:
-      "https://images.unsplash.com/photo-1566754844421-9bc834baf4a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FiaW4lMjBpbiUyMHRoZSUyMHdvb2RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "https://images.unsplash.com/photo-1537197518227-a36efeafd477?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGNhYmlucyUyMGluJTIwZm9yZXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 2 guests",
     reiews: "4.5/5",
@@ -11,7 +11,7 @@ const cabins = [
   {
     key: 2,
     image:
-      "https://images.unsplash.com/photo-1566754844421-9bc834baf4a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FiaW4lMjBpbiUyMHRoZSUyMHdvb2RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNhYmlucyUyMGluJTIwZm9yZXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 4 guests",
     reiews: "4.2/5",
@@ -56,7 +56,7 @@ const cabins = [
   {
     key: 7,
     image:
-      "https://images.unsplash.com/photo-1583177279683-8c46d53b53aa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+      "https://images.unsplash.com/photo-1483737489035-78c01af155f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNhYmluJTIwaW4lMjB0aGUlMjB3b29kc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
     desc: "House stay, Full house",
     stats: "2 beds 2 guests",
     reiews: "4.1/5",

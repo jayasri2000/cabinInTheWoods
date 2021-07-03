@@ -6,9 +6,15 @@ const Singlecabin = ({ id, image, desc, stats, reiews, price }) => {
   return (
     <div>
       {liked ? (
-        <FavoriteIcon onClick={() => setLiked(!liked)} />
+        <FavoriteIcon
+          onClick={() => setLiked(!liked)}
+          style={{ fontSize: 16 }}
+        />
       ) : (
-        <FavoriteBorderIcon onClick={() => setLiked(!liked)} />
+        <FavoriteBorderIcon
+          onClick={() => setLiked(!liked)}
+          style={{ fontSize: 16 }}
+        />
       )}
     </div>
   );
