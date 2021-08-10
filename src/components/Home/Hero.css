@@ -1,6 +1,6 @@
 .hero {
   flex: 0.87;
-  background-image: url("https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,f_jpg,h_605,q_65,w_1200/https://media.newmindmedia.com/TellUs/image/%3Ffile%3DKB_Ugleredet-drone-3756x1616_1009289043.jpg%26dh%3D344%26dw%3D800%26t%3D4");
+  background-image: url("./bg1.jpg");
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
